@@ -1,4 +1,5 @@
 
+import Post from '../post/post'
 import './poststyle.css'
 
 import React from 'react'
@@ -6,7 +7,12 @@ import React from 'react'
 const Posts = () => {
   return (
     <div className='posts'>
-      posts
+     <Post/>
+     <Post/>
+     <Post/>
+     <Post/>
+     <Post/>
+     <Post/>
     </div>
   )
 }
