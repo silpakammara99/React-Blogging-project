@@ -11,7 +11,7 @@ export default function Homepage() {
   return (
     <>
      <Header/>
-      <div className="home">
+      <div className="home">home
      <Posts/>
        <Sidebar/>
       </div>
